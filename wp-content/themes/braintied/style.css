@@ -1,0 +1,308 @@
+/*  
+Theme Name: Braintied
+Theme URI: http://www.wpdesigner.com/2007/02/11/braintied-wordpress-theme/
+Description: Braintied Wordpress theme created by Small Potato
+Version: 1.0
+Author: Small Potato
+Author URI: http://www.wpdesigner.com/
+
+*/
+
+body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Lucida Sans, Verdana;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	background: #fff url(images/bg_body.gif) repeat-x;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Lucida Sans, Verdana;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+a{
+	text-decoration: underline;
+	color: #c00;
+}
+
+a:hover{ text-decoration: none; }
+
+a img{ border: 0; }
+
+abbr, acronym{ border: 0; }
+
+address, dl, p{ padding: 15px 0 0; }
+
+blockquote{
+	margin: 15px 0 0;
+	background: #eee;
+}
+
+blockquote p{ padding: 15px; }
+
+blockquote blockquote{
+	margin: 15px;
+	background: #ddd;
+}
+
+code{
+	background: #f9f9f9;
+}
+
+dt{ font-weight: bold; }
+
+dd{ padding: 0 0 0 15px; }
+
+hr{
+	clear: both;
+	margin: 15px 15px 5px 15px;
+	border: 0;
+	height: 1px;
+	text-align: left;
+	background: #9b9b9b;
+	color: #9b9b9b;
+}
+
+small{
+	font-size: 12px;
+}
+
+pre{
+	width: 90%;
+}
+
+input, textarea{
+	font-family: Lucida Sans, Verdana;
+	font-size: 12px;
+	padding: 2px;
+}
+
+input#s, input#author, input#email, input#url, textarea#comment{
+	padding: 3px;
+}
+
+input#author, input#email, input#url{
+	margin: 0 5px 0 0;
+}
+
+#container{
+	margin: 0 auto;
+	width: 468px;
+	text-align: left;
+}
+
+#header .site-title{
+	float: left;
+	width: 468px;
+	text-align: center;
+}
+
+#header .site-title h1{
+	padding: 24px;
+	font-size: 24px;
+
+}
+
+#header h1 a{
+	padding: 0 0 10px;
+	border-bottom: 1px solid #d4d496;
+	text-decoration: none;
+	color: #333;
+}
+
+#header h1 a:hover{
+	text-decoration: underline;
+}
+
+#header .topmenu{
+	float:left;
+	width: 780px;
+}
+ul.menu {
+margin:0px;
+padding:0px;
+}
+ul.menu li {
+list-style:none;
+float:left;
+width:93px;
+text-align:center;
+font:11px/25px verdana,arial,sans-serif;
+height:auto !important;
+height:25px;
+}
+ul.menu li a {
+display:block;
+text-decoration:none;
+background:#f7f7d2;
+color:#c00;
+text-decoration:underline;
+}
+ul.menu li a:hover {
+background:#ffffff;
+color:#c00;
+
+}
+
+#header .topmenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px 10px 10px 0;
+	border-bottom: 1px solid #d4d496;
+	font-family: Lucida Sans, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#header .topmenu ul li{
+	padding: 0 0 0 20px;
+	display: inline;
+}
+
+.post{
+	padding: 20px 0 0;
+	clear: both;
+}
+
+.post h2.highlight{
+	padding: 15px 20px;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+}
+
+.post .title-item, .post .title-item-alt{
+	padding: 15px 20px;
+	border-bottom: 1px solid #e8e8b1;
+	background: #f7f7d2;
+font-size:15px;
+
+}
+
+.post .title-item-alt{
+	background: #fff;
+}
+
+.title-item{
+margin-top: 10px;
+}
+
+.entry{
+        font-family:verdana,arial,sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6{
+	border: 0;
+	padding: 15px 0 0;
+	font-weight: bold;
+}
+
+.entry h1{
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.entry h2{
+	font-size: 18px;
+}
+
+.entry h3{
+	font-size: 16px;
+}
+
+.entry  h4{ font-size: 14px; }
+
+.entry h5{ font-size: 12px; }
+
+.entry h6{ font-size: 11px; }
+
+.entry img{
+	border: 1px solid #e8e8b1;
+	padding: 4px;
+	background-color: #fff;
+}
+
+.entry img.wp-smiley{
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+}
+
+.entry img.alignleft{
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+.entry img.alignright{
+	float: right;
+	margin: 5px 0 0 10px;
+}
+
+.entry p.postinfo{
+	margin: 15px 0 0;
+	border-top: 1px solid #e8e8b1;
+}
+
+.browse{
+	padding: 15px 20px;
+	font-family: Lucida Sans, Verdana;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.browse a{
+	font-weight: bold;
+}
+
+/* comments template */
+
+.comments-template{
+	margin: 15px 0 0;
+	border-top: 1px solid #e8e8b1;
+	font-family:verdana,arial,sans-serif;
+        font-size:12px;
+	
+}
+
+.comments-template ol{
+	margin: 0;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 15px 0 0;
+	line-height: 24px;
+	border-bottom: 1px solid #e8e8b1;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+/* end comments template */
+
+
+#footer{
+	float: left;
+	width: 468px;
+	font-family: Verdana, Arial, Helvetica, Georgia, Sans-Serif;
+	font-size: 12px;
+}
+
+#footer p{
+	padding: 15px 20px;
+	line-height: 18px;
+}

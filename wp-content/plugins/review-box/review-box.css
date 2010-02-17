@@ -1,0 +1,81 @@
+.review {
+margin:0 5px 10px;
+}
+.review * {
+color:#333333;
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+font-size:11px;
+}
+.review h2 {
+background-color:#6D84B4;
+color:white;
+font-size:11px;
+margin:0;
+padding:5px;
+text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 1px;
+}
+.review .mainbox {
+background:white none repeat scroll 0 0;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:0 1px 1px;
+padding:5px;
+}
+.review .mainbox .procons {
+margin-bottom:10px;
+}
+.review .mainbox * table {
+border-spacing:0;
+text-align:left;
+width:100%;
+}
+.review .mainbox .procons table tr th {
+border-bottom:1px solid #E2E6EF;
+border-color:#C7CFE0 #C7CFE0 #E2E6EF;
+color:#777777;
+font-size:9px;
+margin:0;
+padding:3px;
+font-weight:bold;
+}
+.review .mainbox .procons table tr td {
+border-bottom:1px solid #E2E6EF;
+color:#555555;
+font-size:11px;
+margin:0;
+padding:5px;
+}
+.review .mainbox .procons table tr:hover td {
+background:#EEEEEE none repeat scroll 0 0;
+color:black;
+}
+.review .mainbox .review_grid tr td {
+border-bottom:0 none;
+color:#555555;
+margin:0;
+padding:5px;
+}
+.review .mainbox .review_grid tr .review_label {
+font-size:12px;
+font-weight:bold;
+width:40px;
+}
+.review .mainbox .review_grid tr td .rating_bg {
+background:#D8DFEA none repeat scroll 0 0;
+position:relative;
+border: 1px solid #3B5998;
+}
+.review .mainbox .review_grid tr td .rating_bg .rating_bar {
+background:#3B5998 none repeat scroll 0 0;
+color:white !important;
+display:block;
+font-size:13px;
+font-weight:bold;
+padding:3px 0;
+text-align:left;
+}
+.review .mainbox .review_grid tr td .rating_bg .rating_bar .rating_bar_content {
+padding-left:2px;
+color: white !important;
+text-shadow: rgba(0, 0, 0, 0.75) 0px -1px 1px;
+}

@@ -1,0 +1,7 @@
+[01-Feb-2009 20:47:43] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[05-Feb-2009 12:48:22] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[06-Feb-2009 20:08:48] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[08-Mar-2009 00:53:53] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[14-Apr-2009 18:36:19] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[01-Jun-2009 13:56:33] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
+[01-Jun-2009 13:57:32] PHP Fatal error:  Call to undefined function  get_header() in /home/buchin/blog.itgossips.com/wp-content/themes/braintied/index.php on line 1
